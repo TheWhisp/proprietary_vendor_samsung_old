@@ -17,7 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/msm7x27-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/msm7x27-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so 
+    vendor/samsung/msm7x27-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 ## OMX proprietaries
 PRODUCT_COPY_FILES += \
@@ -89,8 +89,8 @@ PRODUCT_COPY_FILES += \
 
 ## GPS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27-common/proprietary/lib/hw/gps.msm7x27.so:system/lib/hw/gps.msm7x27.so \
-    vendor/samsung/msm7x27-common/proprietary/bin/gpsd:system/bin/gpsd 
+    vendor/samsung/msm7x27-common/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/msm7x27-common/proprietary/lib/hw/gps.msm7x27.so:system/lib/hw/gps.msm7x27.so
 	
 ## GPU firmware and libraries
 PRODUCT_COPY_FILES += \
