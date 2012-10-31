@@ -1,4 +1,4 @@
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,6 +13,11 @@
 # limitations under the License.
 
 include vendor/samsung/msm7x27-common/vendor.mk
+
+## Proprietary blobs needed to build open-source libs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tass/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/samsung/tass/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
