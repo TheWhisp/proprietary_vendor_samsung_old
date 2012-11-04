@@ -16,8 +16,7 @@ include vendor/samsung/msm7x27-common/vendor.mk
 
 ## Proprietary blobs needed to build open-source libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/tass/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/samsung/tass/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
+    vendor/samsung/tass/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
