@@ -12,6 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+## Kernel modules
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27-common/proprietary/lib/modules/fsr.ko:root/lib/modules/fsr.ko \
+    vendor/samsung/msm7x27-common/proprietary/lib/modules/fsr_stl.ko:root/lib/modules/fsr_stl.ko \
+    vendor/samsung/msm7x27-common/proprietary/lib/modules/rfs_fat.ko:root/lib/modules/rfs_fat.ko \
+    vendor/samsung/msm7x27-common/proprietary/lib/modules/rfs_glue.ko:root/lib/modules/rfs_glue.ko \
+    vendor/samsung/msm7x27-common/proprietary/lib/modules/sec_param.ko:root/lib/modules/sec_param.ko
+
 ## RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/bin/qmuxd:system/bin/qmuxd \
