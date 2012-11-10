@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/samsung/msm7x27-common/vendor.mk
-
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxy5/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
@@ -31,3 +29,5 @@ PRODUCT_COPY_FILES += \
 ## Wifi firmware (override msm7x27-common)
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxy5/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.02:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.02
+
+-include vendor/samsung/msm7x27-common/vendor.mk

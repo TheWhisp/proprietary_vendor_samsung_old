@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/samsung/msm7x27-common/vendor.mk
-
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/libcamera.so:system/lib/libcamera.so \
@@ -22,3 +20,5 @@ PRODUCT_COPY_FILES += \
 ## Sensor
 PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/hw/sensors.tass.so:system/lib/hw/sensors.tass.so 
+
+-include vendor/samsung/msm7x27-common/vendor.mk
